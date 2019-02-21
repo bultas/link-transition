@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "src": "/styles.css",
+      "headers": { "cache-control": "s-maxage=3600" },
+      "dest": "/styles.css"
+    },
+    {
+      "src": "/quicklink.mjs",
+      "headers": { "cache-control": "s-maxage=3600" },
+      "dest": "/quicklink.mjs"
+    },
+    {
+      "src": "/scripts.js",
+      "headers": { "cache-control": "s-maxage=3600" },
+      "dest": "/scripts.js"
+    },
+    {
+      "src": "/fader.js",
+      "headers": { "cache-control": "s-maxage=3600" },
+      "dest": "/fader.js"
+    }
+  ]
+}
